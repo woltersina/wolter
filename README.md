@@ -22,6 +22,7 @@ cd $HOME && git clone https://github.com/woltersina/wolter.git && cd wolter && c
 launch Bot
 
 killall -9 bash
+
 cd wolter && killall screen && screen ./wolter.sh
 auto launch
 
