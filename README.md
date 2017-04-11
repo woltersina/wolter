@@ -8,11 +8,17 @@
 
 # Let's install the bot.
 cd $HOME
+
 git clone https://github.com/woltersina/wolter.git
+
 cd errorr
+
 chmod +x wolter.sh
+
 ./wolter.sh install
+
 ./wolter.sh 
+
 # Enter a phone number & confirmation code.
 One command
 
