@@ -41,7 +41,9 @@ auto launch
 
 
 1⃣ killall screen
+
 2⃣ cd wolter
+
 3⃣ screen ./automr.sh
 
 
