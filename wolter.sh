@@ -25,20 +25,15 @@ install() {
 
 function print_logo() {
 	echo -e "\033[38;5;600m" 
-	echo -e "  __  __      _____     ____        ____  "
-	echo -e " |  \/  | __ |_   _|_ _|  _ \  ___ |  _ \ "
-	echo -e " | |\/| |/ _  || |/ _  | | | |/ _ \| |_) | "
-	echo -e " |_|  |_|\__,_||_|\__,_|____/ \___/|_| \_\ "
+	echo -e "  wolter  "
 	echo -e "\n\e[36m"
 }
 
 function logo_play() {
     declare -A txtlogo
     seconds="0.010"
-    txtlogo[1]="  __  __      _____     ____        ____ "
-    txtlogo[2]=" |  \/  | __ |_   _|_ _|  _ \  ___ |  _ \ "
-    txtlogo[3]=" | |\/| |/ _  || |/ _  | | | |/ _ \| |_) | "
-    txtlogo[4]=" |_|  |_|\__,_||_|\__,_|____/ \___/|_| \_\ "
+    txtlogo[1]="  wolter "
+
     printf "\033[38;5;600m\t"
     for i in ${!txtlogo[@]}; do
         for x in `seq 0 ${#txtlogo[$i]}`; do
@@ -63,11 +58,7 @@ if [ ! -f ./tg/tgcli ]; then
 
    print_logo
    echo -e "\033[38;5;208m"
-   echo -e "  __  __       _     ____  _ ____        ___ "
-   echo -e " |  \/  | __ _| |__ |  _ \(_)  _ \ ___  / _ \ "
-   echo -e " | |\/| |/ _  | '_ \| | | | | |_) / _ \| | | | "
-   echo -e " | |  | | (_| | | | | |_| | |  _ < (_) | |_| | "
-   echo -e " |_|  |_|\__,_|_| |_|____/|_|_| \_\___/ \___/ "
+   echo -e "  wolter "
    echo -e "\033[0;00m"
    echo -e "\e[36m"
    logo_play
