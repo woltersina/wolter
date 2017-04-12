@@ -44,13 +44,6 @@ killall -9 bash
 cd wolter && killall screen && screen ./wolter.sh
 auto launch
 
-# انتی کرش کردن
-
-cd wolter
-
-chmod +x anticrash.sh
-
-screen ./anticrash.sh
 
 # 💢اجرای اتولانچ و بدون افی شدن ربات
 
