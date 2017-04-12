@@ -46,7 +46,7 @@ auto launch
 
 # انتی کرش کردن
 
-cd tele_bom_bang
+cd wolter
 
 chmod +x anticrash.sh
 
