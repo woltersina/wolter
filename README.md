@@ -7,6 +7,15 @@
 # Installation
 
 # Let's install the bot.
+
+# اموزش نصب سورس ولتر
+
+کد اماده سازی سرور
+
+sudo apt-get update; sudo apt-get upgrade; sudo apt-get install tmux; sudo apt-get install luarocks; sudo apt-get install screen; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev; sudo apt-get update; sudo apt-get install; sudo apt-get install upstart-sysv;
+
+سپس
+
 cd $HOME
 
 git clone https://github.com/woltersina/wolter.git
@@ -28,10 +37,20 @@ cd $HOME && git clone https://github.com/woltersina/wolter.git && cd wolter && c
 
 # launch Bot
 
+# لانچ ربات
+
 killall -9 bash
 
 cd wolter && killall screen && screen ./wolter.sh
 auto launch
+
+# انتی کرش کردن
+
+cd tele_bom_bang
+
+chmod +x anticrash.sh
+
+screen ./anticrash.sh
 
 # 💢اجرای اتولانچ و بدون افی شدن ربات
 
