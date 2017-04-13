@@ -20,7 +20,7 @@ cd $HOME
 
 git clone https://github.com/woltersina/wolter.git
 
-cd errorr
+cd wolter
 
 chmod +x wolter.sh
 
