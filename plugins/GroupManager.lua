@@ -3478,11 +3478,11 @@ if matches[1] == "help" and is_mod(msg) or matches[1] == "Help" and is_mod(msg) 
 if not lang then
 text = [[
 ⚜*ฬOℓtέЯ TG*
-
-`⚡️To See The CoMmAnDs of YoUr DesiRed iteM SubMiT`
-
+`
 💠*EngliSh CoMmAnDs :*
 
+☆》#help			
+				
 ➱➯*»  !Sudohelp*
 *دستورات صاحب ربات 👆🏻*
 ★★★★★★★★★★
@@ -4223,7 +4223,7 @@ patterns ={
 "^(راهنما)$",
 "^[!/#]([Ss]udohelp)$",
 "^([Ss]udohelp)$",
-"^(راهنماسودو)$",
+"^(راهنما سودو)$",
 "^[!/#]([Ll]ockhelp)$",
 "^([Ll]ockhelp)$",
 "^(راهنما قفل)$",
