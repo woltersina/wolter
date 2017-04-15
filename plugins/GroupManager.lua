@@ -3486,22 +3486,140 @@ text = [[
 ➱➯*»  !Sudohelp*
 *دستورات صاحب ربات 👆🏻*
 ★★★★★★★★★★
-➱➯*»  !Lockhelp*
-*دستورات قفلی 👆🏻*
-★★★★★★★★★★
-➱➯*»  !Modhelp*
-*دستورات مدیریتی 👆🏻*
-★★★★★★★★★★
 ➱➯*»  !Funhelp*
 *دستورات فان 👆🏻*
 ★★★★★★★★★★
+🔰Bot Commands:🔰
 
+در حال حاضر زبان ربات انگلیسی میباشد برای تغییر زبان دستور زیر را ارسال کنید
+!setlang fa
+
+👑!setowner [username|id|reply] 
+Set Group Owner(Multi Owner)
+
+👑!remowner [username|id|reply] 
+ Remove User From Owner List
+
+🤖!promote [username|id|reply] 
+Promote User To Group Admin
+
+🤖!demote [username|id|reply] 
+Demote User From Group Admins List
+
+🗣!setflood [1-50]
+Set Flooding Number
+
+🔇!silent [username|id|reply] 
+Silent User From Group
+
+🔊!unsilent [username|id|reply] 
+Unsilent User From Group
+
+👽!kick [username|id|reply] 
+Kick User From Group
+
+👽!ban [username|id|reply] 
+Ban User From Group
+
+👽!unban [username|id|reply] 
+UnBan User From Group
+
+🔹!res [username]
+Show User ID
+
+🔹!id [reply]
+Show User ID
+
+🔹!whois [id]
+Show User's Username And Name
+
+🔒!lock [link | tag | arabic | edit | fosh | webpage | bots | spam | flood | markdown | mention]
+If This Actions Lock, Bot Check Actions And Delete Them
+
+🔓!unlock [link | tag | arabic | edit | fosh | webpage | bots | spam | flood | markdown | mention]
+If This Actions Unlock, Bot Not Delete Them
+
+🔕!mute [gifs | photo | tgservice | document | sticker | video | text | forward | location | audio | voice | contact | all]
+If This Actions Lock, Bot Check Actions And Delete Them
+
+🔔!unmute [gif | photo | tgservice | document | sticker | video | tgservice | text | forward | inline | location | audio | voice | contact | all]
+If This Actions Unlock, Bot Not Delete Them
+
+🔹!set[rules | name | photo | link | about]
+Bot Set Them
+
+🔹!clean [bans | mods | bots | rules | about | silentlist]   
+Bot Clean Them
+
+🔹!pin [reply]
+Pin Your Message
+
+🔹!unpin 
+Unpin Pinned Message
+
+🛡!settings
+Show Group Settings
+
+
+🔕!silentlist
+Show Silented Users List
+
+🔕!banlist
+Show Banned Users List
+
+👑!ownerlist
+Show Group Owners List 
+
+🤖!modlist 
+Show Group Moderators List
+
+🎖!rules
+Show Group Rules
+
+⚜!gpinfo
+Show Group Information
+
+⚜!link
+Show Group Link
+
+🔇!mt 0 1 (0h 1m)
+🔊!unmt
+Mute All With Time
+
+🚫!filter 
+🚫!unfilter 
+filter word
+🚫!filterlist 
+Show Filter List
+〰〰〰〰〰
+♻️!rmsg 1-100
+♻️!delall [reply]
+Delete Message
+〰〰〰〰〰
+⏱!setexpire  30
+⏱!expire
+set expire for group
+〰〰〰〰〰
+🎗!setwelcome متن پیام
+➕!welcome enable
+➖!welcome disable
+set welcome for group
+〰〰〰〰〰
+📣!broadcast text
+Send Msg To All Groups
+〰〰〰〰〰
+⚙!autoleave enable
+⚙!autoleave disable
+set Auto leave
+
+
+You Can Use [!/#] To Run The Commands
+Change the language to farsi : !setlang fa
 *> LanGuage BoT EngliSh !*
-_To Change The LanGuage_ `[Setlang]` `[en , fa]`
 
 *___________________________*
-*🎭Pwered By :* ŜίņĄ
-*🎭Channel:* @wolterr 				
+*📝 ฬгเttєภ ๒y:* ŜίņĄ
+*🔊 ςђคภภєl:* @WOlterr 				
 *___________________________*
 ]]
 elseif lang then
@@ -3528,10 +3646,10 @@ text = [[
 *> زبان ربات فارسی !*
 _برای تغییر زبان_ `[تنظیم زبان]` `[فارسی , انگلسیی]`
 
-*___________________________*
-*🎭Pwered By :* ŜίņĄ
-*🎭Channel:* @wolterr				
-*___________________________*
+*✯✭✯✭✯✭✯✭✯✭✯✭✯*
+*📝 ฬгเttєภ ๒y:* ŜίņĄ
+*🔊 ςђคภภєl:* @WOlterr 				
+*✯✭✯✭✯✭✯✭✯✭✯✭✯*
 ]]
 end
 return text
@@ -3636,10 +3754,10 @@ text = [[
 
 *موفق باشید ;)*
 
-*___________________________*
-*🎭Pwered By :* ŜίņĄ
-*🎭Channel:* @wolterr			
-*___________________________*
+*✯✭✯✭✯✭✯✭✯✭✯✭✯*
+*📝 ฬгเttєภ ๒y:* ŜίņĄ
+*🔊 ςђคภภєl:* @WOlterr 				
+*✯✭✯✭✯✭✯✭✯✭✯✭✯*
 
 ]]
 return text
@@ -3673,11 +3791,10 @@ text = [[
  *> LanGuage BoT EngliSh !*
 _To Change The LanGuage_ `[Setlang]` `[en , fa]`
 
-*___________________________*
- 
-*🎭Pwered By :* ŜίņĄ
-*🎭Channel:* @wolterr			
-*___________________________*
+*✯✭✯✭✯✭✯✭✯✭✯✭✯*
+*📝 ฬгเttєภ ๒y:* ŜίņĄ
+*🔊 ςђคภภєl:* @WOlterr 				
+*✯✭✯✭✯✭✯✭✯✭✯✭✯*
 
  ]]
  elseif lang then
@@ -3707,10 +3824,10 @@ _To Change The LanGuage_ `[Setlang]` `[en , fa]`
 *> زبان ربات فارسی !*
 _برای تغییر زبان_ `[تنظیم زبان]` `[فارسی , انگلسیی]`
 
-*___________________________*
-*🎭Pwered By :* ŜίņĄ
-*🎭Channel:* @wolterr 				
-*___________________________*
+*✯✭✯✭✯✭✯✭✯✭✯✭✯*
+*📝 ฬгเttєภ ๒y:* ŜίņĄ
+*🔊 ςђคภภєl:* @WOlterr 				
+*✯✭✯✭✯✭✯✭✯✭✯✭✯*
 ]]
 end
 return text
@@ -3816,10 +3933,10 @@ text = [[
  *> LanGuage BoT EngliSh !*
 _To Change The LanGuage_ `[Setlang]` `[en , fa]`
 
-*___________________________*
-*🎭Pwered By :* ŜίņĄ
-*🎭Channel:* @wolterr				
-*___________________________*
+*✯✭✯✭✯✭✯✭✯✭✯✭✯*
+*📝 ฬгเttєภ ๒y:* ŜίņĄ
+*🔊 ςђคภภєl:* @WOlterr 				
+*✯✭✯✭✯✭✯✭✯✭✯✭✯*
 ]]
 elseif lang then
 text = [[
@@ -3917,10 +4034,10 @@ text = [[
 *> زبان ربات فارسی !*
 _برای تغییر زبان_ `[تنظیم زبان]` `[فارسی , انگلسیی]`
 
-*___________________________*
-*🎭Pwered By :* ŜίņĄ
-*🎭Channel:* @wolterr				
-*___________________________*
+*✯✭✯✭✯✭✯✭✯✭✯✭✯*
+*📝 ฬгเttєภ ๒y:* ŜίņĄ
+*🔊 ςђคภภєl:* @WOlterr 				
+*✯✭✯✭✯✭✯✭✯✭✯✭✯*
 ]]
 end
 return text
@@ -4051,10 +4168,10 @@ _ترجمه en سلام_
 *> زبان ربات فارسی !*
 _برای تغییر زبان_ `[تنظیم زبان]` `[فارسی , انگلسیی]`
 
-*___________________________*
-*🎭Pwered By :* ŜίņĄ
-*🎭Channel:* @wolterr
-*___________________________*
+*✯✭✯✭✯✭✯✭✯✭✯✭✯*
+*📝 ฬгเttєภ ๒y:* ŜίņĄ
+*🔊 ςђคภภєl:* @WOlterr 				
+*✯✭✯✭✯✭✯✭✯✭✯✭✯*
 ]]
 end
 return text
@@ -4288,7 +4405,7 @@ patterns ={
 "^(راهنما)$",
 "^[!/#]([Ss]udohelp)$",
 "^([Ss]udohelp)$",
-"^(راهنمای سدو)$",
+"^(راهنمای سودو)$",
 "^[!/#]([Ll]ockhelp)$",
 "^([Ll]ockhelp)$",
 "^(راهنمای قفلی)$",
