@@ -65,7 +65,7 @@ auto launch
 3⃣ screen ./automr.sh
 
 
-🆔: @sina_admins
+# 🆔: # @sina_admins
 
 # Good luck :
 Sudo
